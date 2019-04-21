@@ -1,0 +1,23 @@
+.mid .jumbotron{
+    background-image: linear-gradient(to bottom right,darkslategray,darkgray,white,darkgray,darkslategray);
+}
+.mid h1,p{
+    font-weight: unset;
+    margin: 0 0 3% 0;
+}
+.progress{
+    margin: 5% 0 5% 0;
+}
+.progress-bar{
+    width: 50%;
+}
+.form-group label{
+    font-size: 15pt;
+}
+form{
+    margin: 5% 0 5% 0;
+}
+form button{
+    width: 20%;
+    margin: 3% 0 2% 0;
+}

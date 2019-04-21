@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NGO - Distress Relief System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="NGO.css">
+        <link rel="stylesheet" href="Main.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </head>
+    <body>
+        <!--Header-->
+        <div class="row">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="container">
+                        <a href="Home.html"><img class="rounded" src="logo.svg"></a>
+                        <h1 class="display-3">DANA</h1>
+                        <footer> Donations by ANA</footer>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div><hr><br></div>
+        <!--Mid-Section-->
+        <div class="mid">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h2>Pledge non-monetary items.</h2><br><hr><br>
+                        <!-- <div class="dropdown">
+                            <label>: </label>
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                                Select NGO
+                            </button>
+                            <div class="dropdown-menu">These links will lead to diffefent NGO progress pages
+                                <a class="dropdown-item" href="#">NGO 1</a>
+                                <a class="dropdown-item" href="#">NGO 2</a>
+                                <a class="dropdown-item" href="#">NGO 3</a>
+                            </div>
+                        </div>-->
+                        <form method="LINK" action="Pledge.html">
+                            <div class="form-inline">
+                                <label>Enter NGO: </label>
+                                <input type="text" class="form-control" id="ngo" placeholder="Enter NGO to donate to." name="NGO" required>
+                                <button type="submit" class="btn btn-warning">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><br><hr><br></div>
+        <!--Footer-->
+        <footer class="row jumbotron">
+            <div class="container">
+                <a class="btn btn-link" href="About.html">
+                    <h3 style="border: none;">About Us</h3>
+                </a>
+                <h3>Contact Us:<br>
+                    <a href="https://github.com/2018cse25">
+                        <img class="rounded" src="github.svg" style="height:5%;width: 5%;margin: 2% 1% 0 0;"></a>
+                    <a href="https://medium.com/@2018cse25">
+                        <img class="rounded" src="medium.svg" style="height:5%;width: 5%;margin: 2% 0 0 1%;"></a>
+                </h3>
+            </div>
+        </footer>
+    </body>

@@ -1,0 +1,32 @@
+body{
+    background-image: radial-gradient(white 10%, black 70%);
+}
+.row .jumbotron{
+    background-color: rgb(49, 49, 49);
+}
+.row .jumbotron h1,footer{
+    color: whitesmoke;
+    text-align: left;
+}
+.row .jumbotron img{
+    height:100pt;
+    width:100pt;
+    float: left;
+    opacity: 0.9;
+}
+.row .jumbotron .display-3{
+    font-weight:400;
+}
+.row .jumbotron footer{
+    font-size:17pt;
+}
+footer .container{
+    text-align: center;
+    border-inline-start: thin ridge black;
+    border-inline-end: thin ridge black;
+}
+footer h3{
+    color:darkslategray;
+    font-family: monospace;
+    
+}

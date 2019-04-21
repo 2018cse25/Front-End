@@ -1,0 +1,20 @@
+.mid .jumbotron{
+    background-image: linear-gradient(to bottom left,chocolate,burlywood,cornsilk,beige,cornsilk,burlywood,chocolate);
+}
+/* .mid{
+    text-align: center;
+} */
+.mid label{
+    font-size: 20pt;
+    font-weight: normal;
+    margin: 0 0 0 25%
+}
+.mid input{
+    color: black;
+    font-weight: 450;
+    margin: 0 0 0 3%;
+}
+.mid button{
+    width: 50%;
+    margin: 5% 0 0 25%;
+}
