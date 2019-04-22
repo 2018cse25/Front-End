@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NGO Wallet - Distress Relief System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="NGOWallet.css">
+        <link rel="stylesheet" href="Main.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <style>
+            i{
+                padding-right:5px; 
+            }
+        </style>
+    </head>
+    <body> 
+        <!--Header-->
+        <div class="row">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="container-fluid">
+                        <a href="Home.html"><img class="rounded" src="logo.svg"></a>
+                        <h1 style="float: right;"><i class="fas fa-coins"></i>Balance: $50,000</h1>
+                        <h1 class="display-4">NGO - Red Panther</h1>
+                        <footer> Phone No: 2345678901</footer>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div><hr><br></div>
+
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <div class="container">
+                    <h2>Toggleable Tabs</h2>
+                    <br>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#Monetary">Monetary Transactions</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#NonMonetary">Non-Monetary Transactions</a>
+                        </li>
+                    </ul>
+                      
+                        <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="Monetary" class="container tab-pane active"><br>
+                            <h3>Monetary Transactions</h3>
+                            <p><p>This table shows all your monetary transactions.</p>            
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>From</th>
+                                            <th>Transaction ID</th>
+                                            <th>Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>John</td>
+                                            <td>ID12341</td>                                
+                                            <td>10000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mary</td>
+                                            <td>ID12342</td>
+                                            <td>9000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>July</td>
+                                            <td>ID12343</td>
+                                            <td>5000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                        <div id="NonMonetary" class="container tab-pane fade"><br>
+                            <h3>Non-Monetary Transactions</h3>
+                            <p>
+                                <p>This table shows all your monetary transactions.</p>            
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>From</th>
+                                            <th>Transaction ID</th>
+                                            <th>Items</th>
+                                            <th>Quantity(in total)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>John</td>
+                                            <td>ID12341</td>                                
+                                            <td>Packaged Food</td>
+                                            <td>350</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mary</td>
+                                            <td>ID12342</td>
+                                            <td>Packaged Food</td>
+                                            <td>350</td>
+                                        </tr>
+                                        <tr>
+                                            <td>July</td>
+                                            <td>ID12343</td>
+                                            <td>Packaged Food</td>
+                                            <td>350</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
