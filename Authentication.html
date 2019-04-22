@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Authentication - Distress Relief System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="About.css">
+        <link rel="stylesheet" href="Main.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--Header-->
+        <div class="row">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="container">
+                        <a href="Home.html"><img class="rounded" src="logo.svg"></a>
+                        <h1 class="display-3">DANA</h1>
+                        <footer> Donations by ANA</footer>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div><hr><br></div>
+        <div class="container-fluid">
+            <div class="jumbotron container">
+                <form method="POST" class="form-group">
+                    <h4>Enter Mobile Number:</h4>
+                    <input class="form-control" type="tel" name="phone" pattern="[1-9][0-9]{9}" required>
+                    <p>An OTP will be sent to this number for verification.</p>
+                    <center><input type="submit" class="btn btn-danger" style="width:20%"></center>
+                </form>
+            </div>
+        </div>
+        </body>
+        </html>
